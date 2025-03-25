@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras - Loja Online</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Carrinho de Compras</h1>
+        <table id="carrinho" class="tabela-carrinho">
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Quantidade</th>
+                    <th>Total</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody id="itens-carrinho">
+                <!-- Produtos serão adicionados dinamicamente aqui -->
+            </tbody>
+        </table>
+        <div class="total">
+            <p id="total">Total: R$ 0,00</p>
+        </div>
+        <button onclick="finalizarCompra()">Finalizar Compra</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Loja Online - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
