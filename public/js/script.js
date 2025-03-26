@@ -3,6 +3,7 @@ const produtos = [
     { id: 1, nome: "Produto 1", preco: 99.99 },
     { id: 2, nome: "Produto 2", preco: 149.99 },
     { id: 3, nome: "Produto 3", preco: 199.99 }
+    { id: 4, nome: "Produto 4", preco: 299.99 }
 ];
 
 // Carrinho de compras (armazenado no localStorage para persistir os dados)
