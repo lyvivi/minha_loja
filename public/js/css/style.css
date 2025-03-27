@@ -32,7 +32,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: absolute;
+    position: center;
     width: 100%;
     bottom: 0;
 }
@@ -114,18 +114,18 @@ button[type="submit"]:hover {
 
     font-size: 30px;
 }
-.finalizar{
-        font-size: 50px; /* Aumenta o tamanho da fonte */
-        padding: 10px 100px; /* Aumenta o espaçamento interno */
-        width: 100px; /* Define uma largura fixa */
-        border-radius: 0px; /* Deixa os cantos arredondados */
+#finalizar{
+        font-size: 20px; /* Aumenta o tamanho da fonte */
+        padding: 15px; /* Aumenta o espaçamento interno */
+        width: 200px; /* Define uma largura fixa */
+        border-radius: 5px; /* Deixa os cantos arredondados */
         background-color: #4CAF50; /* Cor de fundo */
         color: white; /* Cor do texto */
         border: none; /* Remove a borda */
         cursor: pointer; /* Aponta o cursor como uma mão */
       }
       
-      .finalizar:hover {
-        background-color: #45a049; /* Altera a cor de fundo ao passar o mouse */
-      }
+#finalizar:hover {
+        background-color: #1f6723; /* Altera a cor de fundo ao passar o mouse */
+}
       
