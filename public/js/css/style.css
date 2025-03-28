@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #e23030;
+    background-color: #659df9;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -64,15 +64,15 @@ h1 {
 }
 
 button {
-    padding: 5px 10px;
-    background-color: #10d63f;
+    padding: 8px 20px;
+    background-color: #4ad46b;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #10d63f;
+    background-color: #4ee672;
 }
 
 form {
@@ -128,4 +128,32 @@ button[type="submit"]:hover {
 #finalizar:hover {
         background-color: #1f6723; /* Altera a cor de fundo ao passar o mouse */
 }
+body {
+    min-height: 98vh; /* Certifica-se de que o body tenha pelo menos 100% da altura da tela */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer {
+    margin-top: auto; /* Empurra o footer para a parte inferior */
+    background-color: #0321cb;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  section {
+    font-size: 35px; /* Aumenta o tamanho da fonte */
+  h1{
+        font-size: 40px; /* Aumenta o tamanho da fonte do h1 */
+      }
+
+      h2 {
+        font-size: 36px; /* Aumenta o tamanho da fonte do h2 */
+      }
       
+      
+  }
+
+  
