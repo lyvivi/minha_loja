@@ -67,7 +67,18 @@ function finalizarCompra() {
         localStorage.removeItem("carrinho"); // Limpar o carrinho
         atualizarCarrinho(); // Atualiza a página após finalização
     }
-}
+
 
 // Inicializar carrinho ao carregar a página
 atualizarCarrinho();
+// script.js
+
+
+    // Ação quando o botão for clicado
+    // Por exemplo, redirecionar o usuário para uma página de pagamento
+    alert("Compra finalizada com sucesso! Você será redirecionado para a página de pagamento.");
+  
+    // Aqui, você pode redirecionar para outra página, como a página de pagamento
+    window.location.href = "pagina_de_pagamento.html"; // Exemplo de redirecionamento
+  }
+  
