@@ -81,4 +81,3 @@ atualizarCarrinho();
     // Aqui, você pode redirecionar para outra página, como a página de pagamento
     window.location.href = "pagina_de_pagamento.html"; // Exemplo de redirecionamento
   }
-  
