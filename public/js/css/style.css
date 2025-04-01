@@ -31,7 +31,7 @@ footer {
     background-color: #070707;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 100px;
     position: center;
     width: 100%;
     bottom: 0;
@@ -152,8 +152,45 @@ body {
       h2 {
         font-size: 36px; /* Aumenta o tamanho da fonte do h2 */
       }
+    
       
       
   }
 
+  h1 {
+    font-size: 59px; /* Tamanho do título h1 */
+  }
   
+  h2 {
+    font-size: 36px; /* Tamanho do título h2 */
+  }
+  
+  #finalizarCompra
+/* Estilo base para o botão */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Cor verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Estilo quando o mouse passa por cima (hover) */
+button:hover {
+    background-color: #45a049; /* Tom mais escuro de verde */
+}
+
+/* Estilo quando o botão é clicado (active) */
+button:active {
+    transform: scale(0.98); /* O botão fica um pouco menor */
+    background-color: #397439; /* Tom ainda mais escuro de verde */
+}
+
+/* Estilo quando o botão tem o foco (focus) */
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+}
