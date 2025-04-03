@@ -12,7 +12,7 @@ let carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
 // Função para atualizar o carrinho no HTML
 function atualizarCarrinho() {
     const carrinhoTabela = document.getElementById("itens-carrinho");
-    carrinhoTabela.innerHTML = ""; // Limpar tabela
+    carrinhoTabela.innerHTML = "limpar tabela"; // Limpar tabela
 
     let total = 0;
     
@@ -81,3 +81,7 @@ atualizarCarrinho();
     // Aqui, você pode redirecionar para outra página, como a página de pagamento
     window.location.href = "pagina_de_pagamento.html"; // Exemplo de redirecionamento
   }
+  document.getElementById('finalizarCompraBtn').addEventListener('click', function() {
+    // Ação ao clicar no botão, redireciona o usuário para a página de "Obrigado"
+    window.location.href = 'obrigado.html';
+});
