@@ -84,4 +84,13 @@ atualizarCarrinho();
   document.getElementById('finalizarCompraBtn').addEventListener('click', function() {
     // Ação ao clicar no botão, redireciona o usuário para a página de "Obrigado"
     window.location.href = 'obrigado.html';
+    // Exemplo simples de como redirecionar o usuário após 5 segundos
+setTimeout(function() {
+    window.location.href = "/";  // Redireciona para a página inicial após 5 segundos
+}, 5000);
+
+});
+
+document.getElementById('finalizarbtn').addEventListener('click', function(){
+    window.location.href = 'obrigado.html';
 });
